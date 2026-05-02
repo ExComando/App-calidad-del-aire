@@ -53,28 +53,18 @@
     "station",
     "season"
   ],
-  "n_train": 329623,
-  "n_test": 82406,
+  "n_train": 54743,
+  "n_test": 13686,
   "metricas_test": {
-    "MAE": 11.999306072148675,
-    "RMSE": 19.414621021985678,
-    "R2": 0.9416695539245779,
-    "MAPE": 26.13584010799214
+    "MAE": 13.036548719664854,
+    "RMSE": 21.060361045712835,
+    "R2": 0.9235947221242754,
+    "MAPE": 29.056899312382534
   },
-  "oob_r2": 0.9262925695156369,
+  "oob_r2": 0.9210790349472457,
   "estaciones": [
     "Aotizhongxin",
-    "Changping",
-    "Dingling",
-    "Dongsi",
-    "Guanyuan",
-    "Gucheng",
-    "Huairou",
-    "Nongzhanguan",
-    "Shunyi",
-    "Tiantan",
-    "Wanliu",
-    "Wanshouxigong"
+    "Changping"
   ],
   "wd_categorias": [
     "NNW",

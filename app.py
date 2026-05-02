@@ -8,8 +8,8 @@ st.set_page_config(page_title="Beijing Air Quality Predictor", layout="wide")
 
 @st.cache_resource
 def load_model():
-    # Cargamos el pipeline completo (incluye preprocesamiento y modelo)
-    return joblib.load('pipeline_rf.pkl')
+    # mmap_mode='r' permite leer el archivo desde el disco sin cargarlo todo de golpe a la RAM
+    return joblib.load('pipeline_rf.pkl', mmap_mode='r')
 
 def main():
     st.title("🌬️ Predicción de Calidad del Aire (PM2.5)")
